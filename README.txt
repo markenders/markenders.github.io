@@ -1,3 +1,12 @@
+My online portfolio with some of the projects I have done/working on.
+Thanks for reading.
+
+
+
+
+
+Credit for design:
+
 Massively by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -30,8 +39,3 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
-		
-
-*Testing git pull... again*
-
-Testing new PC - Git pull
