@@ -1,5 +1,5 @@
-My online portfolio with some of the projects I have done/working on.
-Thanks for reading.
+My online portfolio with some of the projects I have done or working on.
+Thanks for reading/viewing!
 
 
 
