@@ -1,4 +1,4 @@
-My online portfolio with some of the projects I have done or working on.
+My online portfolio with some of the projects I have done.
 Thanks for reading/viewing!
 
 
