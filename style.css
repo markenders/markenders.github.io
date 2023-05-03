@@ -1,3 +1,17 @@
+@media only screen and (max-width: 800px) {
+  #menu-background-image {
+    background-repeat: no-repeat !important;
+  }
+
+  .menu-item {
+    padding: clamp(2rem, 0.5vw, 1rem) 0rem !important;
+  }
+
+  #menu-background-pattern {
+    display: none !important;
+  }
+}
+
 body {
   background-color: rgb(20, 20, 20);
   margin: 0px;
@@ -8,7 +22,7 @@ a {
   text-decoration: none; /* no underline */
 }
 
-#menu {  
+#menu {
   align-items: center;
   display: flex;
   height: 100vh;
@@ -62,7 +76,7 @@ a {
 
 #menu-background-pattern {
   background-image: radial-gradient(
-    rgba(255, 255, 255, 0.1) 9%, 
+    rgba(255, 255, 255, 0.1) 9%,
     transparent 9%
   );
   background-position: 0% 0%;
@@ -71,8 +85,7 @@ a {
   left: 0px;
   position: absolute;
   top: 0px;
-  transition: opacity 800ms ease, 
-    background-size 800ms ease,
+  transition: opacity 800ms ease, background-size 800ms ease,
     background-position 800ms ease;
   width: 100vw;
   z-index: 1;
@@ -83,12 +96,11 @@ a {
   background-position: center 40%;
   background-size: 100vmax;
   height: 100%;
-  left: 0px;  
+  left: 0px;
   opacity: 0.15;
   position: absolute;
   top: 0px;
-  transition: opacity 800ms ease,
-    background-size 800ms ease,
+  transition: opacity 800ms ease, background-size 800ms ease,
     background-position 800ms ease;
   width: 100%;
   z-index: 0;
@@ -109,14 +121,14 @@ a {
 }
 
 #menu-items:hover > .menu-item:hover {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .menu-item {
   color: white;
   cursor: pointer;
   display: block;
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova", serif;
   font-size: clamp(3rem, 8vw, 8rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
@@ -128,7 +140,7 @@ a {
   color: white;
   cursor: pointer;
   display: block;
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova", serif;
   font-size: clamp(3rem, 8vw, 8rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
@@ -141,7 +153,7 @@ div {
   color: white;
   cursor: pointer;
   display: block;
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova", serif;
   font-size: clamp(1rem, 2vw, 3rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
@@ -156,7 +168,7 @@ img {
 .button {
   background-color: #ffffff;
   border: none;
-  color: #2C2C2C;
+  color: #2c2c2c;
   padding: 20px 34px;
   text-align: center;
   text-decoration: none;
